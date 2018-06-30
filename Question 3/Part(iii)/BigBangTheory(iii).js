@@ -5274,7 +5274,7 @@ for(let index in bigBangTheory._embedded.episodes){
     }
       if(index == bigBangTheory._embedded.episodes.length-1){
       if(isNameFound){
-       let Detail = bigBangTheory._embedded.episodes[index];
+       let Detail = bigBangTheory._embedded.episodes[episodeIndex];
         console.log(JSON.stringify(Detail)); //for console
         document.body.innerHTML = "<h1>The details of season and episodes are " + JSON.stringify(Detail) + "</h1>" //Displaying result in the webpage.
 }
